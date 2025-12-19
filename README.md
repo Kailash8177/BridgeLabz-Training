@@ -39,3 +39,29 @@ Git helps in tracking code changes
 A good folder structure makes the project easy to manage
 
 📌 This day helped me build a strong base for upcoming training sessions.
+
+
+📅 Day 2 — 19 December 2025
+🚀 Learning Summary
+
+Studied the .NET Framework architecture and gained a clear understanding of its core components.
+
+Learned the fundamentals of C# programming, including:
+
+Data Types
+
+Access Modifiers
+
+Operators
+
+Solved 16 Level-1 coding problems to strengthen basic programming concepts.
+
+Practiced 12 Level-2 problem-solving questions to develop deeper understanding and improve logical thinking.
+
+🎯 Key Outcomes
+
+Built a strong foundation in C# fundamentals
+
+Gained clarity on the working of the .NET Framework
+
+Improved problem-solving and analytical skills
