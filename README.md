@@ -398,3 +398,71 @@ Constructors help initialize objects properly
 Scenario-based projects improve real-world understanding
 
 Role-based systems enhance application security and structure
+
+📅 Day 11 — 30 December 2025
+
+🎯 Focus of the Day
+Working on real-life scenario-based projects
+Learning constructors in C#
+Implementing role-based access logic
+
+🛠️ Work Done
+Developed a Quiz Application:
+
+Teachers can manage questions
+
+Students can attempt quizzes
+
+Built a Library Management System with core functionalities
+Learned and practiced constructors in C#
+Implemented role-based login systems in applications
+
+🧠 Key Takeaways
+Constructors help initialize objects properly
+Scenario-based projects improve real-world understanding
+Role-based systems enhance application security and structure
+
+📅 Day 12 — 31 December 2025
+
+🎯 Focus of the Day
+Understanding method-based programming using real-life scenarios
+Working with strings and string manipulation
+Learning important C# keywords and operators
+
+🛠️ Work Done
+Developed a Bank Account Manager:
+
+Implemented Deposit, Withdraw, and CheckBalance methods
+
+Added logic to prevent overdraft
+
+Created a Math Utility class with methods for:
+
+Factorial calculation
+
+Prime number check
+
+GCD of two numbers
+
+Nth Fibonacci number
+
+Tested all methods with edge cases
+
+Built a Freelancer Invoice Generator:
+
+Parsed invoice strings to extract tasks and amounts
+
+Calculated total invoice amount using methods
+
+Studied core C# concepts:
+
+this keyword
+
+static and sealed keywords
+
+is operator
+
+🧠 Key Takeaways
+Methods help write reusable and structured code
+String manipulation is essential for real-world applications
+Understanding C# keywords strengthens OOP concepts
