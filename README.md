@@ -466,3 +466,107 @@ is operator
 Methods help write reusable and structured code
 String manipulation is essential for real-world applications
 Understanding C# keywords strengthens OOP concepts
+
+
+:
+
+📅 Day 13 – January 1, 2026
+🧩 Learning Focus
+
+Scenario-driven problem solving using design thinking
+
+Object modeling for real-world systems
+
+Understanding and creating class diagrams
+
+Learning sequence diagrams for object interaction flow
+
+✅ Work Completed
+
+Solved multiple real-life scenario questions to improve logical design skills
+
+Studied how to convert real-world problems into object models
+
+Designed solutions using class diagrams to represent relationships
+
+Practiced sequence diagrams to visualize execution flow between objects
+
+📅 Day 14 – January 2, 2026
+🧩 Learning Focus
+
+Inheritance in C# and its real-world importance
+
+Exploring types of inheritance:
+
+Single inheritance
+
+Multilevel inheritance
+
+Hierarchical inheritance
+
+Applying inheritance through scenario-based programs
+
+✅ Work Completed
+
+Implemented inheritance concepts using C#
+
+Practiced problems covering all major inheritance types
+
+Built mini applications such as:
+
+Bus Route Tracker for managing routes and distances
+
+Festival Lucky Draw based on conditional logic
+
+📅 Day 15 – January 3, 2026
+🧩 Learning Focus
+
+Complete revision of OOP concepts
+
+Practice sessions to strengthen fundamentals
+
+✅ Work Completed
+
+Revised all previously learned OOP topics
+
+Solved multiple practice questions to clear doubts
+
+Improved confidence in applying OOP concepts
+
+📅 Day 16 – January 5, 2026
+🧩 Learning Focus
+
+Encapsulation for data protection
+
+Abstraction for simplifying complex systems
+
+Polymorphism (compile-time vs runtime)
+
+Abstract classes and interfaces
+
+Applying OOP pillars in real-life scenarios
+
+✅ Work Completed
+
+Learned and practiced all major OOP pillars
+
+Implemented abstract classes and interfaces in C#
+
+Solved two complete scenario-based problems using these concepts
+
+📅 Day 17 – January 6, 2026
+🧩 Learning Focus
+
+Detailed revision of all OOP concepts
+
+Advanced scenario-based problem solving
+
+Review and feedback discussion
+
+✅ Work Completed
+
+Revised OOP concepts thoroughly
+
+Solved several real-world scenario questions
+
+Shared learning progress and received mentor feedback
