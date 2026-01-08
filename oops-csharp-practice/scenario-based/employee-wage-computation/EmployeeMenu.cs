@@ -28,7 +28,8 @@ namespace Employee_Wage_Computation
                 Console.WriteLine("3. Check Attendance");
                 Console.WriteLine("4. Calculate Daily Wage");
                 Console.WriteLine("5. Calculate Part-Time Wage");
-                Console.WriteLine("6. Exit");
+                Console.WriteLine("6. Calculate Monthly Wage");
+                Console.WriteLine("7. Exit");
 
                 int choice = int.Parse(Console.ReadLine());
 
@@ -70,6 +71,13 @@ namespace Employee_Wage_Computation
                         break;
 
                     case 6:
+                        if (currentEmployee != null)
+                            employeeUtility.CalculateMonthlyWage(currentEmployee);
+                        else
+                            Console.WriteLine("No employee added yet");
+                        break;
+
+                    case 7:
                         return;
 
                     default:

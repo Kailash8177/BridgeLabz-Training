@@ -13,6 +13,6 @@ namespace Employee_Wage_Computation
         void CheckAttendance(Employee employee);
         void CalculateDailyWage(Employee employee);
         void CalculatePartTimeWage(Employee employee);
-
+        void CalculateMonthlyWage(Employee employee);
     }
 }

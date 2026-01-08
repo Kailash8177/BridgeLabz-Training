@@ -12,6 +12,7 @@ namespace Employee_Wage_Computation
         private const int WAGE_PER_HOUR = 20;
         private const int FULL_DAY_HOURS = 8;
         private const int PART_TIME_HOURS = 8;
+        private const int WORKING_DAYS = 20;
         public Employee AddEmployee()
         {
             employee = new Employee();
@@ -67,6 +68,17 @@ namespace Employee_Wage_Computation
             else
                 employee.PartTimeWage = 0;
             Console.WriteLine($"Part-Time Wage : {employee.PartTimeWage}");
+        }
+
+        //UC-5
+
+        public void CalculateMonthlyWage(Employee employee)
+        {
+            if (employee.IsPresent)
+                employee.MonthlyWage = WAGE_PER_HOUR * FULL_DAY_HOURS * WORKING_DAYS;
+            else
+                employee.MonthlyWage = 0;
+            Console.WriteLine($"Monthly Wage : {employee.MonthlyWage}");
         }
 
 
