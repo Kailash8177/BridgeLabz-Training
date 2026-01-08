@@ -19,6 +19,9 @@ namespace Employee_Wage_Computation
 
         private double monthlyWage { get; set; }
 
+        private int totalWorkingHours { get; set; }
+        private int totalWorkingDays { get; set; }
+
         public int EmployeeId
         {
             get { return employeeId; }
@@ -64,9 +67,21 @@ namespace Employee_Wage_Computation
             get { return monthlyWage; }
             set { monthlyWage = value; }
         }
+
+        public int TotalWorkingHours
+        {
+            get { return totalWorkingHours; }
+            set { totalWorkingHours = value; }
+        }
+
+        public int TotalWorkingDays
+        {
+            get { return totalWorkingDays; }
+            set { totalWorkingDays = value; }
+        }
         public override string ToString()
         {
-            return $"Name : {EmployeeName} || ID : {EmployeeId}  || Present : {IsPresent} || Daily Wage : {DailyWage}  || Part-Time Wage : {PartTimeWage} || Monthly Wage: {MonthlyWage}";
+            return $"Name : {EmployeeName} || ID : {EmployeeId}  || Present : {IsPresent} || Daily Wage : {DailyWage}  || Part-Time Wage : {PartTimeWage} || Hours : {TotalWorkingHours} || Monthly Wage: {MonthlyWage}";
         }
 
     }

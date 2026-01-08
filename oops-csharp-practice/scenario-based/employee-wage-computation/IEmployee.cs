@@ -14,5 +14,6 @@ namespace Employee_Wage_Computation
         void CalculateDailyWage(Employee employee);
         void CalculatePartTimeWage(Employee employee);
         void CalculateMonthlyWage(Employee employee);
+        void CalculateWageTillCondition(Employee employee);
     }
 }

@@ -13,6 +13,8 @@ namespace Employee_Wage_Computation
         private const int FULL_DAY_HOURS = 8;
         private const int PART_TIME_HOURS = 8;
         private const int WORKING_DAYS = 20;
+        private const int MAX_WORKING_DAYS = 20;
+        private const int MAX_WORKING_HOURS = 100;
         public Employee AddEmployee()
         {
             employee = new Employee();
@@ -81,6 +83,33 @@ namespace Employee_Wage_Computation
             Console.WriteLine($"Monthly Wage : {employee.MonthlyWage}");
         }
 
+        //UC-6
+        public void CalculateWageTillCondition(Employee employee)
+        {
+            employee.TotalWorkingDays = 0;
+            employee.TotalWorkingHours = 0;
+            employee.MonthlyWage = 0;
+
+            while (employee.TotalWorkingDays < MAX_WORKING_DAYS &&
+                   employee.TotalWorkingHours < MAX_WORKING_HOURS)
+            {
+                employee.TotalWorkingDays++;
+
+                // Random attendance
+                bool isPresent = random.Next(2) == 1;
+
+                if (isPresent)
+                {
+                    employee.TotalWorkingHours += FULL_DAY_HOURS;
+                    employee.MonthlyWage += FULL_DAY_HOURS * WAGE_PER_HOUR;
+                }
+            }
+
+            Console.WriteLine("UC-5 Result:");
+            Console.WriteLine($"Total Working Days  : {employee.TotalWorkingDays}");
+            Console.WriteLine($"Total Working Hours : {employee.TotalWorkingHours}");
+            Console.WriteLine($"Total Monthly Wage  : {employee.MonthlyWage}");
+        }
 
 
     }

@@ -29,7 +29,8 @@ namespace Employee_Wage_Computation
                 Console.WriteLine("4. Calculate Daily Wage");
                 Console.WriteLine("5. Calculate Part-Time Wage");
                 Console.WriteLine("6. Calculate Monthly Wage");
-                Console.WriteLine("7. Exit");
+                Console.WriteLine("7. Calculate Wage Till Condition");
+                Console.WriteLine("8. Exit");
 
                 int choice = int.Parse(Console.ReadLine());
 
@@ -78,10 +79,16 @@ namespace Employee_Wage_Computation
                         break;
 
                     case 7:
+                        if (currentEmployee != null)
+                            employeeUtility.CalculateWageTillCondition(currentEmployee);
+                        else
+                            Console.WriteLine("No employee added yet");
+                        break;
+                    case 8:
+                        Console.WriteLine("Exiting the program. Goodbye!");
                         return;
-
                     default:
-                        Console.WriteLine("Invalid Choice");
+                        Console.WriteLine("Invalid choice. Please try again.");
                         break;
                 }
             }
