@@ -12,6 +12,8 @@ namespace Employee_Wage_Computation
 
         private bool isPresent { get; set; }
 
+        private double dailyWage { get; set; }
+
         public int EmployeeId
         {
             get { return employeeId; }
@@ -34,9 +36,15 @@ namespace Employee_Wage_Computation
 
         // override tostring
 
-        public string toString()
+        public double DailyWage
         {
-            return $"name {EmployeeName} || ID: {EmployeeId} ||  Present : {IsPresent}";
+            get { return dailyWage; }
+            set { dailyWage = value; }
+        }
+
+        public override string ToString()
+        {
+            return $"Name : {EmployeeName} || ID : {EmployeeId}  || Present : {IsPresent} || Daily Wage : {DailyWage}";
         }
 
     }

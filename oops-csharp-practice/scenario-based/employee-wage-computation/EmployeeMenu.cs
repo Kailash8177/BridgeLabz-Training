@@ -11,7 +11,7 @@ namespace Employee_Wage_Computation
         private Employee currentEmployee;
 
 
-        public  EmployeeMenu() 
+        public EmployeeMenu()
         {
             employeeUtility = new EmployeeUtilityImpl();
             ShowMenu();
@@ -24,7 +24,9 @@ namespace Employee_Wage_Computation
                 Console.WriteLine("\nEmployee Menu");
                 Console.WriteLine("1. Add Employee");
                 Console.WriteLine("2. Display Employee");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. Check Attendance");
+                Console.WriteLine("4. Calculate Daily Wage");
+                Console.WriteLine("5. Exit");
 
                 int choice = int.Parse(Console.ReadLine());
 
@@ -52,6 +54,13 @@ namespace Employee_Wage_Computation
                         break;
 
                     case 4:
+                        if (currentEmployee != null)
+                            employeeUtility.CalculateDailyWage(currentEmployee);
+                        else
+                            Console.WriteLine("No employee added yet");
+                        break;
+
+                    case 5:
                         return;
 
                     default:

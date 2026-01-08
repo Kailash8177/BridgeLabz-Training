@@ -9,8 +9,9 @@ namespace Employee_Wage_Computation
         private Employee employee;
 
         private static Random random = new Random();
-
-        public Employee AddEmployee() 
+        private const int WAGE_PER_HOUR = 20;
+        private const int FULL_DAY_HOURS = 8;
+        public Employee AddEmployee()
         {
             employee = new Employee();
 
@@ -27,7 +28,7 @@ namespace Employee_Wage_Computation
 
         public void DisplayEmployeeDetails(Employee employees)
         {
-           Console.WriteLine($"EmployeeName : {employee.EmployeeName} ,   EmpoyeeId : {employee.EmployeeId} , Employee attandance {employee.IsPresent}");
+            Console.WriteLine($"EmployeeName : {employee.EmployeeName} ,   EmpoyeeId : {employee.EmployeeId} , Employee attandance {employee.IsPresent}");
         }
 
 
@@ -41,6 +42,16 @@ namespace Employee_Wage_Computation
             {
                 Console.WriteLine("Employee is absent.");
             }
+        }
+
+        public void CalculateDailyWage(Employee employee)
+        {
+            if (employee.IsPresent)
+                employee.DailyWage = WAGE_PER_HOUR * FULL_DAY_HOURS;
+            else
+                employee.DailyWage = 0;
+
+            Console.WriteLine($"Daily Wage : {employee.DailyWage}");
         }
 
     }
