@@ -11,6 +11,7 @@ namespace Employee_Wage_Computation
         private static Random random = new Random();
         private const int WAGE_PER_HOUR = 20;
         private const int FULL_DAY_HOURS = 8;
+        private const int PART_TIME_HOURS = 8;
         public Employee AddEmployee()
         {
             employee = new Employee();
@@ -23,15 +24,17 @@ namespace Employee_Wage_Computation
 
 
             employee.IsPresent = random.Next(2) == 1;
+            employee.IsPartTime = random.Next(2) == 1;
+
             return employee;
         }
 
         public void DisplayEmployeeDetails(Employee employees)
         {
-            Console.WriteLine($"EmployeeName : {employee.EmployeeName} ,   EmpoyeeId : {employee.EmployeeId} , Employee attandance {employee.IsPresent}");
+            Console.WriteLine($"EmployeeName : {employee.EmployeeName} ,   EmpoyeeId : {employee.EmployeeId} , Is Employee Present : {employee.IsPresent}, is Employee PartTime : {employee.IsPartTime}");
         }
 
-
+        //UC-1
         public void CheckAttendance(Employee employee)
         {
             if (employee.IsPresent)
@@ -44,6 +47,7 @@ namespace Employee_Wage_Computation
             }
         }
 
+        // UC-2
         public void CalculateDailyWage(Employee employee)
         {
             if (employee.IsPresent)
@@ -53,6 +57,19 @@ namespace Employee_Wage_Computation
 
             Console.WriteLine($"Daily Wage : {employee.DailyWage}");
         }
+
+        // UC-3
+
+        public void CalculatePartTimeWage(Employee employee)
+        {
+            if (employee.IsPresent && employee.IsPartTime)
+                employee.PartTimeWage = WAGE_PER_HOUR * PART_TIME_HOURS;
+            else
+                employee.PartTimeWage = 0;
+            Console.WriteLine($"Part-Time Wage : {employee.PartTimeWage}");
+        }
+
+
 
     }
 }

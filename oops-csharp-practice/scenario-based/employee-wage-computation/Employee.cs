@@ -12,7 +12,10 @@ namespace Employee_Wage_Computation
 
         private bool isPresent { get; set; }
 
+        private bool isPartTime { get; set; }
         private double dailyWage { get; set; }
+
+        private double partTimeWage { get; set; }
 
         public int EmployeeId
         {
@@ -42,9 +45,23 @@ namespace Employee_Wage_Computation
             set { dailyWage = value; }
         }
 
+        public bool IsPartTime
+        {
+            get { return isPartTime; }
+            set { isPartTime = value; }
+        }
+
+
+
+        public double PartTimeWage
+        {
+            get { return partTimeWage; }
+            set { partTimeWage = value; }
+        }
+
         public override string ToString()
         {
-            return $"Name : {EmployeeName} || ID : {EmployeeId}  || Present : {IsPresent} || Daily Wage : {DailyWage}";
+            return $"Name : {EmployeeName} || ID : {EmployeeId}  || Present : {IsPresent} || Daily Wage : {DailyWage}  || Part-Time Wage : {PartTimeWage}";
         }
 
     }

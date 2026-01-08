@@ -12,6 +12,7 @@ namespace Employee_Wage_Computation
         void DisplayEmployeeDetails(Employee employees);
         void CheckAttendance(Employee employee);
         void CalculateDailyWage(Employee employee);
+        void CalculatePartTimeWage(Employee employee);
 
     }
 }
