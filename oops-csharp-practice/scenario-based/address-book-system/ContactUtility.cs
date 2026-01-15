@@ -51,6 +51,7 @@ namespace address_book_system
             addressBook.count++;
         }
 
+        //UC3
         public void EditContact()
         {
             if (addressBook.count == 0)
@@ -102,6 +103,49 @@ namespace address_book_system
             {
                 Console.WriteLine("Contact not found with given name.");
             }
+        }
+
+
+        //UC4
+        public void DeleteContact()
+        {
+            if (addressBook.count == 0)
+            {
+                Console.WriteLine("No contacts available to delete.");
+                return;
+            }
+
+
+            Console.WriteLine("\n Enter the First Name of the contact to delete:");
+            string firstNameToDelete = Console.ReadLine().ToLower();
+
+
+            int deleteIndex = -1;
+
+
+            for (int i = 0; i < addressBook.count; i++)
+            {
+                if (addressBook.contacts[i].FirstName.Equals(firstNameToDelete, StringComparison.OrdinalIgnoreCase)
+)
+                {
+                    deleteIndex = i;
+                    break;
+                }
+            }
+            if (deleteIndex == -1)
+            {
+                Console.WriteLine("Contact not found with given name.");
+                return;
+            }
+
+            for (int i = deleteIndex; i < addressBook.count - 1; i++)
+            {
+                addressBook.contacts[i] = addressBook.contacts[i + 1];
+            }
+            addressBook.contacts[addressBook.count - 1] = null;
+            addressBook.count--;
+
+            Console.WriteLine("Contact Deleted Successfully!");
         }
     }
 }

@@ -20,9 +20,10 @@ namespace address_book_system
 
             do
             {
-                Console.WriteLine("\n 1. Create and Add New Address ");
+                Console.WriteLine("\n1. Create and Add New Address ");
                 Console.WriteLine("2. Edit Contact");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. Delete Contact");
+                Console.WriteLine("4. Exit");
                 choice = int.Parse(Console.ReadLine());
 
                 switch (choice)
@@ -37,14 +38,19 @@ namespace address_book_system
                         break;
 
                     case 3:
+                        utility.DeleteContact();
+                        break;
+
+                    case 4:
                         Console.WriteLine("Exiting the application.");
-                        return;
+                        break;
+
                     default:
-                        Console.WriteLine("Invalid choice. Please try again.");
+                        Console.WriteLine("Invalid choice.");
                         break;
                 }
             }
-            while (choice != 3);
+            while (choice != 4);
         }
     }
 }
