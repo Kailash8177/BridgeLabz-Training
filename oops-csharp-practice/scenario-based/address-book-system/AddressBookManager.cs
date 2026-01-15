@@ -166,6 +166,71 @@ namespace address_book_system
             }
         }
 
+        public void CountPersonsByCity()
+        {
+            if (books.Count == 0)
+            {
+                Console.WriteLine("No Address Books available.");
+                return;
+            }
+
+            Dictionary<string, int> cityCount = new Dictionary<string, int>();
+
+            foreach (var entry in books)
+            {
+                AddressBook book = entry.Value;
+
+                for (int i = 0; i < book.count; i++)
+                {
+                    string city = book.contacts[i].City;
+
+                    if (cityCount.ContainsKey(city))
+                        cityCount[city]++;
+                    else
+                        cityCount[city] = 1;
+                }
+            }
+
+            Console.WriteLine("\nPerson Count by City:");
+            foreach (var entry in cityCount)
+            {
+                Console.WriteLine($"{entry.Key} : {entry.Value}");
+            }
+        }
+
+        public void CountPersonsByState()
+        {
+            if (books.Count == 0)
+            {
+                Console.WriteLine("No Address Books available.");
+                return;
+            }
+
+            Dictionary<string, int> stateCount = new Dictionary<string, int>();
+
+            foreach (var entry in books)
+            {
+                AddressBook book = entry.Value;
+
+                for (int i = 0; i < book.count; i++)
+                {
+                    string state = book.contacts[i].State;
+
+                    if (stateCount.ContainsKey(state))
+                        stateCount[state]++;
+                    else
+                        stateCount[state] = 1;
+                }
+            }
+
+            Console.WriteLine("\nPerson Count by State:");
+            foreach (var entry in stateCount)
+            {
+                Console.WriteLine($"{entry.Key} : {entry.Value}");
+            }
+        }
+
+
 
     }
 }

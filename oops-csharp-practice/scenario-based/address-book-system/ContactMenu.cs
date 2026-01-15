@@ -18,12 +18,17 @@ namespace address_book_system
             int choice;
             do
             {
+
+
                 Console.WriteLine("1. Create Address Book");
                 Console.WriteLine("2. Select Address Book");
-                Console.WriteLine("3. Search Person by City/State");
-                Console.WriteLine("4. View Persons by City ");
-                Console.WriteLine("5. View Persons by State ");
-                Console.WriteLine("6. Exit");
+                Console.WriteLine("3. Search Person by City/State (UC8)");
+                Console.WriteLine("4. View Persons by City (UC9)");
+                Console.WriteLine("5. View Persons by State (UC9)");
+                Console.WriteLine("6. Count Persons by City (UC10)");
+                Console.WriteLine("7. Count Persons by State (UC10)");
+                Console.WriteLine("8. Exit");
+
 
 
 
@@ -61,6 +66,14 @@ namespace address_book_system
                         break;
 
                     case 6:
+                        manager.CountPersonsByCity(); // UC10
+                        break;
+
+                    case 7:
+                        manager.CountPersonsByState(); // UC10
+                        break;
+
+                    case 8:
                         Console.WriteLine("Exiting...");
                         break;
                 }
