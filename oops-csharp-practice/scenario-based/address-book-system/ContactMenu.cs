@@ -21,7 +21,10 @@ namespace address_book_system
                 Console.WriteLine("1. Create Address Book");
                 Console.WriteLine("2. Select Address Book");
                 Console.WriteLine("3. Search Person by City/State");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("4. View Persons by City ");
+                Console.WriteLine("5. View Persons by State ");
+                Console.WriteLine("6. Exit");
+
 
 
                 choice = int.Parse(Console.ReadLine());
@@ -50,6 +53,14 @@ namespace address_book_system
                         break;
 
                     case 4:
+                        manager.ViewPersonsByCity(); // UC9
+                        break;
+
+                    case 5:
+                        manager.ViewPersonsByState(); // UC9
+                        break;
+
+                    case 6:
                         Console.WriteLine("Exiting...");
                         break;
                 }

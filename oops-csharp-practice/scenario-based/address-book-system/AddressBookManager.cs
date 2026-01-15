@@ -92,6 +92,81 @@ namespace address_book_system
                 Console.WriteLine("No matching persons found.");
             }
         }
+        public void ViewPersonsByCity()
+        {
+            if (books.Count == 0)
+            {
+                Console.WriteLine("No Address Books available.");
+                return;
+            }
+
+            Dictionary<string, List<Contacts>> cityMap =
+                new Dictionary<string, List<Contacts>>();
+
+            foreach (var entry in books)
+            {
+                AddressBook book = entry.Value;
+
+                for (int i = 0; i < book.count; i++)
+                {
+                    Contacts c = book.contacts[i];
+
+                    if (!cityMap.ContainsKey(c.City))
+                    {
+                        cityMap[c.City] = new List<Contacts>();
+                    }
+                    cityMap[c.City].Add(c);
+                }
+            }
+
+            foreach (var city in cityMap)
+            {
+                Console.WriteLine($"\nCity: {city.Key}");
+                foreach (var person in city.Value)
+                {
+                    Console.WriteLine($"- {person.FirstName} {person.LastName}");
+                }
+            }
+        }
+
+        public void ViewPersonsByState()
+        {
+            if (books.Count == 0)
+            {
+                Console.WriteLine("No Address Books available.");
+                return;
+            }
+
+            Dictionary<string, List<Contacts>> stateMap =
+                new Dictionary<string, List<Contacts>>();
+
+            foreach (var entry in books)
+            {
+                AddressBook book = entry.Value;
+
+                for (int i = 0; i < book.count; i++)
+                {
+                    Contacts c = book.contacts[i];
+
+                    if (!stateMap.ContainsKey(c.State))
+                    {
+                        stateMap[c.State] = new List<Contacts>();
+                    }
+                    stateMap[c.State].Add(c);
+                }
+            }
+
+            foreach (var state in stateMap)
+            {
+                Console.WriteLine($"\nState: {state.Key}");
+                foreach (var person in state.Value)
+                {
+                    Console.WriteLine($"- {person.FirstName} {person.LastName}");
+                }
+            }
+        }
+
+
     }
 }
 
