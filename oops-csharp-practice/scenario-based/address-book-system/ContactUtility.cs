@@ -30,6 +30,13 @@ namespace address_book_system
             Console.WriteLine("Enter Last Name:");
             contacts.LastName = Console.ReadLine();
 
+            //UC6
+            if (IsDuplicate(contacts.FirstName, contacts.LastName))
+            {
+                Console.WriteLine("Duplicate contact found. Cannot add contact.");
+                return;
+            }
+
             Console.WriteLine("Enter the address");
             contacts.Address = Console.ReadLine();
 
@@ -146,6 +153,21 @@ namespace address_book_system
             addressBook.count--;
 
             Console.WriteLine("Contact Deleted Successfully!");
+        }
+
+        //UC6
+
+        public bool IsDuplicate(string firstName, string lastName)
+        {
+            for (int i = 0; i < addressBook.count; i++)
+            {
+                if (addressBook.contacts[i].FirstName.Equals(firstName, StringComparison.OrdinalIgnoreCase) &&
+                    addressBook.contacts[i].LastName.Equals(lastName, StringComparison.OrdinalIgnoreCase))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
