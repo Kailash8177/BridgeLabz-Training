@@ -142,5 +142,43 @@ namespace address_book_system
             }
             return false;
         }
+
+        // UC11 – Sort contacts alphabetically by FirstName, then LastName
+        public void SortContactsByName()
+        {
+            if (addressBook.count <= 1)
+            {
+                Console.WriteLine("Not enough contacts to sort.");
+                return;
+            }
+
+            for (int i = 0; i < addressBook.count - 1; i++)
+            {
+                for (int j = 0; j < addressBook.count - i - 1; j++)
+                {
+                    Contacts c1 = addressBook.contacts[j];
+                    Contacts c2 = addressBook.contacts[j + 1];
+
+                    // Compare First Name
+                    int firstNameCompare = string.Compare(
+                        c1.FirstName, c2.FirstName, StringComparison.OrdinalIgnoreCase);
+
+                    // If first names are equal, compare last name
+                    if (firstNameCompare > 0 ||
+                       (firstNameCompare == 0 &&
+                        string.Compare(c1.LastName, c2.LastName, StringComparison.OrdinalIgnoreCase) > 0))
+                    {
+                        // Swap
+                        Contacts temp = addressBook.contacts[j];
+                        addressBook.contacts[j] = addressBook.contacts[j + 1];
+                        addressBook.contacts[j + 1] = temp;
+                    }
+                }
+            }
+
+            Console.WriteLine("Contacts sorted alphabetically by name.");
+        }
+
+
     }
 }

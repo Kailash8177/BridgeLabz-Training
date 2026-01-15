@@ -86,19 +86,33 @@ namespace address_book_system
             int choice;
             do
             {
-                Console.WriteLine("\n1. Add Contact");
+                Console.WriteLine("1. Add Contact");
                 Console.WriteLine("2. Edit Contact");
                 Console.WriteLine("3. Delete Contact");
-                Console.WriteLine("4. Back");
+                Console.WriteLine("4. Sort Contacts by Name (UC11)");
+                Console.WriteLine("5. Back");
 
                 choice = int.Parse(Console.ReadLine());
 
                 switch (choice)
                 {
-                    case 1: utility.AddContact(); break;
-                    case 2: utility.EditContact(); break;
-                    case 3: utility.DeleteContact(); break;
+                    case 1:
+                        utility.AddContact();
+                        break;
+
+                    case 2:
+                        utility.EditContact();
+                        break;
+
+                    case 3:
+                        utility.DeleteContact();
+                        break;
+
+                    case 4:
+                        utility.SortContactsByName(); // UC11
+                        break;
                 }
+
             }
             while (choice != 4);
         }
