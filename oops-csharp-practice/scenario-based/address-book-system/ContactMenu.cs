@@ -20,8 +20,9 @@ namespace address_book_system
 
             do
             {
-                Console.WriteLine("1. Create and Add New Address Book");
-                Console.WriteLine("2. Exit");
+                Console.WriteLine("\n 1. Create and Add New Address ");
+                Console.WriteLine("2. Edit Contact");
+                Console.WriteLine("3. Exit");
                 choice = int.Parse(Console.ReadLine());
 
                 switch (choice)
@@ -30,7 +31,12 @@ namespace address_book_system
                         utility.AddContact();
                         Console.WriteLine("Address Book operations completed.");
                         break;
+
                     case 2:
+                        utility.EditContact();
+                        break;
+
+                    case 3:
                         Console.WriteLine("Exiting the application.");
                         return;
                     default:
@@ -38,7 +44,7 @@ namespace address_book_system
                         break;
                 }
             }
-            while (choice != 2);
+            while (choice != 3);
         }
     }
 }

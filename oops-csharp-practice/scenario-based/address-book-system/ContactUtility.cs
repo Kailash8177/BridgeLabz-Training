@@ -50,59 +50,58 @@ namespace address_book_system
             addressBook.contacts[addressBook.count] = contacts;
             addressBook.count++;
         }
-    }
-}
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace address_book_system
-{
-    internal class ContactUtility
-    {
-        private AddressBook addressBook;
-
-        public ContactUtility(AddressBook addressBook)
+        public void EditContact()
         {
-            this.addressBook = addressBook;
-        }
-
-        // UC2
-
-        public void AddContact()
-        {
-            if (addressBook.count >= addressBook.contacts.Length)
+            if (addressBook.count == 0)
             {
-                Console.WriteLine("Address Book is full. Cannot add more contacts.");
+                Console.WriteLine("No contacts available to edit.");
                 return;
             }
-            Contacts contacts = new Contacts();
 
-            Console.WriteLine("Enter First Name:");
-            contacts.FirstName = Console.ReadLine();
+            Console.WriteLine("\n Enter the First Name of the contact to edit:");
+            string firstNameToEdit = Console.ReadLine().ToLower();
 
-            Console.WriteLine("Enter Last Name:");
-            contacts.LastName = Console.ReadLine();
+            bool contactFound = false;
 
-            Console.WriteLine("Enter the address");
-            contacts.Address = Console.ReadLine();
+            for (int i = 0; i < addressBook.count; i++)
+            {
 
-            Console.WriteLine("Enter City Name:");
-            contacts.City = Console.ReadLine();
+                if (addressBook.contacts[i].FirstName.ToLower().Equals(firstNameToEdit))
+                {
+                    contactFound = true;
 
-            Console.WriteLine("Enter state Name:");
-            contacts.State = Console.ReadLine();
+                    Contacts c = addressBook.contacts[i];
 
-            Console.WriteLine("Enter Zip Number:");
-            contacts.Zip = Console.ReadLine();
-            Console.WriteLine("Enter Phone Number:");
-            contacts.PhoneNumber = Console.ReadLine();
+                    Console.WriteLine("\n Enter new  the Details:");
 
-            Console.WriteLine("Enter Email Address:");
-            contacts.Email = Console.ReadLine();
+                    Console.Write("New Address: ");
+                    c.Address = Console.ReadLine();
 
-            addressBook.contacts[addressBook.count] = contacts;
-            addressBook.count++;
+                    Console.Write("New City: ");
+                    c.City = Console.ReadLine();
+
+                    Console.Write("New State: ");
+                    c.State = Console.ReadLine();
+
+                    Console.Write("New Zip: ");
+                    c.Zip = Console.ReadLine();
+
+                    Console.Write("New Phone: ");
+                    c.PhoneNumber = Console.ReadLine();
+
+                    Console.Write("New Email: ");
+                    c.Email = Console.ReadLine();
+
+                    Console.WriteLine("Contact Updated Successfully!");
+                    break;
+                }
+
+            }
+            if (!contactFound)
+            {
+                Console.WriteLine("Contact not found with given name.");
+            }
         }
     }
 }
