@@ -8,7 +8,9 @@ namespace address_book_system
     {
         public static void Main(string[] args)
         {
+
             Console.WriteLine("Welcome to Address Book System");
+            new ContactMenu();
         }
     }
 }
