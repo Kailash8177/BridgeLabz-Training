@@ -30,12 +30,12 @@ namespace address_book_system
             Console.Write("Last Name: ");
             c.LastName = Console.ReadLine();
 
-            // UC6 – Prevent Duplicate
-            //if (IsDuplicate(c.FirstName, c.LastName))
-            //{
-            //    Console.WriteLine("Duplicate contact found.");
-            //    return;
-            //}
+            //UC7 – Prevent Duplicate
+            if (IsDuplicate(c.FirstName, c.LastName))
+            {
+                Console.WriteLine("Duplicate contact found.");
+                return;
+            }
 
             Console.Write("Address: ");
             c.Address = Console.ReadLine();
@@ -126,21 +126,21 @@ namespace address_book_system
             Console.WriteLine("Contact not found.");
         }
 
-        //// UC6 – Duplicate Check (UNCHANGED)
-        //private bool IsDuplicate(string firstName, string lastName)
-        //{
-        //    for (int i = 0; i < addressBook.count; i++)
-        //    {
-        //        if (addressBook.contacts[i].FirstName
-        //                .Equals(firstName, StringComparison.OrdinalIgnoreCase)
-        //            &&
-        //            addressBook.contacts[i].LastName
-        //                .Equals(lastName, StringComparison.OrdinalIgnoreCase))
-        //        {
-        //            return true;
-        //        }
-        //    }
-        //    return false;
-        //}
+        // UC7 – Duplicate Check (UNCHANGED)
+        private bool IsDuplicate(string firstName, string lastName)
+        {
+            for (int i = 0; i < addressBook.count; i++)
+            {
+                if (addressBook.contacts[i].FirstName
+                        .Equals(firstName, StringComparison.OrdinalIgnoreCase)
+                    &&
+                    addressBook.contacts[i].LastName
+                        .Equals(lastName, StringComparison.OrdinalIgnoreCase))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
