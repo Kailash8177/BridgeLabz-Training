@@ -18,9 +18,11 @@ namespace address_book_system
             int choice;
             do
             {
-                Console.WriteLine("\n1. Create Address Book");
+                Console.WriteLine("1. Create Address Book");
                 Console.WriteLine("2. Select Address Book");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. Search Person by City/State");
+                Console.WriteLine("4. Exit");
+
 
                 choice = int.Parse(Console.ReadLine());
 
@@ -43,9 +45,16 @@ namespace address_book_system
                             AddressBookMenu(utility);
                         }
                         break;
+                    case 3:
+                        manager.SearchPersonByCityOrState();
+                        break;
+
+                    case 4:
+                        Console.WriteLine("Exiting...");
+                        break;
                 }
             }
-            while (choice != 3);
+            while (choice != 4);
         }
 
         private void AddressBookMenu(ContactUtility utility)
