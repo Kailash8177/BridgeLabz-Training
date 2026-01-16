@@ -2,571 +2,436 @@
 📅 Day 1 — 18 December 2025
 🎯 What I Learned Today
 
-On Day 1, I focused on:
+📅 Day 1 – December 16, 2025
+🔧 Focus Areas
 
-Understanding the basic concepts of C#
+🧩 Git & GitHub Basics
+💻 Core C# Coding Practice
 
-Learning an overview of the .NET platform
+✅ Work Completed
 
-Knowing how Git and GitHub are used in real projects
+🔹 Created and connected GitHub repository using VS Code
+🔹 Practiced Git commands: git add, git commit, git push
+🔹 Worked with branches: main, core-csharp-practice
+🔹 Solved C# problems:
+   ✔ Palindrome Number
+   ✔ Remove Duplicates
+   ✔ Roman to Integer
+   ✔ Square Root
+   ✔ Valid Parentheses
 
-Creating a proper folder structure for training work
+🧠 Outcome
 
-🧑‍💻 Work Done
+⭐ Understood Git workflow
+⭐ Improved logical thinking using C#
 
-Created a new repository on GitHub
+📅 Day 2 – December 17, 2025
+🔧 Focus Areas
 
-Connected the repository with my local system
+🖥️ Git Configuration & Git Bash
+🧮 Programming Elements in C#
 
-Initialized Git using the git init command
+✅ Work Completed
 
-Organized folders in a clean and simple structure
+🔹 Configured Git (username & email)
+🔹 Practiced repository handling using Git Bash
+🔹 Solved basic programs:
+   ✔ Add Two Numbers
+   ✔ Area of Circle
+   ✔ Average Calculation
+   ✔ Celsius ➜ Fahrenheit
+   ✔ Kilometer ➜ Miles
+   ✔ Simple Interest
+   ✔ Power Calculation
 
-Learned the basics of C# and .NET
+🧠 Outcome
 
-Compared C# with Java
+⭐ Strengthened programming basics
+⭐ Gained confidence with Git commands
 
-Understood the difference between a compiler and an interpreter
+📅 Day 3 – December 18, 2025
+🔧 Focus Areas
 
-Practiced some basic C# programs
+🛠️ Development Environment Setup
+📚 C# & .NET Fundamentals
 
-🧠 Key Points
+✅ Work Completed
 
-Git helps in tracking code changes
+🔹 Installed .NET SDK, VS Code, Notepad++
+🔹 Learned differences between Java vs .NET & Java vs C#
+🔹 Wrote first Hello World program in C#
+🔹 Studied C# naming conventions & best practices
 
-.NET is useful for building backend applications
+🧠 Outcome
 
-A good folder structure makes the project easy to manage
+⭐ Clear understanding of tools
+⭐ Strong foundation in C# basics
 
-📌 This day helped me build a strong base for upcoming training sessions.
+📅 Day 4 – December 19, 2025
+🔧 Focus Areas
 
+➕ Operators in C#
+🔐 Access Modifiers
+🧠 Memory Concepts
 
-📅 Day 2 — 19 December 2025
-🚀 Learning Summary
+✅ Work Completed
 
-Studied the .NET Framework architecture and gained a clear understanding of its core components.
+🔹 Practiced arithmetic, logical & relational operators
+🔹 Learned access modifiers (public, private, protected, internal)
+🔹 Understood memory allocation in C#
+🔹 Solved real-life operator-based problems
 
-Learned the fundamentals of C# programming, including:
+🧠 Outcome
 
-Data Types
+⭐ Better understanding of data access & execution flow
 
-Access Modifiers
+📅 Day 5 – December 20, 2025
+🔧 Focus Areas
 
-Operators
+🔀 Control Flow Statements
+🔁 Jump Statements
+🔄 Switch Case
 
-Solved 16 Level-1 coding problems to strengthen basic programming concepts.
+✅ Work Completed
 
-Practiced 12 Level-2 problem-solving questions to develop deeper understanding and improve logical thinking.
+🔹 Practiced if, else-if, switch
+🔹 Used break, continue, goto
+🔹 Solved condition-based problems
 
-🎯 Key Outcomes
+🧠 Outcome
 
-Built a strong foundation in C# fundamentals
+⭐ Improved decision-making logic
+⭐ Strong control-flow understanding
 
-Gained clarity on the working of the .NET Framework
+📅 Day 6 – December 22, 2025
+🔧 Focus Areas
 
-Improved problem-solving and analytical skills
+🔀 Control Flow – Practical Usage
+🧮 Number-based Programs
 
-📅 Day 3 — 20 December 2025
-🎯 Focus of the Day
+✅ Work Completed
 
-On Day 3, my learning mainly revolved around:
+🔹 Solved real-life problems using if-else and switch
+🔹 Practiced number programs:
+   ✔ Armstrong Number
+   ✔ Similar logical number problems
+🔹 Built a Calculator Application using control flow
+🔹 Strengthened logic with multiple practice questions
 
-Understanding how access control works in C#
+🧠 Outcome
 
-Strengthening previously learned core C# concepts
+⭐ Improved real-life logic building
+⭐ Better grip on conditional execution
 
-Improving coding skills through practice-based learning
+📅 Day 7 – December 23, 2025
+🔧 Focus Areas
 
-🛠️ Work Completed
+📦 Arrays in C#
+🧪 Logic Building with Arrays
 
-Studied different Access Modifiers in C#, such as:
+✅ Work Completed
 
-public
+🔹 Learned array declaration, initialization, and traversal
+🔹 Solved 1-D array problems:
+   ✔ Searching
+   ✔ Iteration
+   ✔ Basic manipulation
+🔹 Practiced 2-D arrays with row-column traversal
+🔹 Reviewed all concepts covered so far
 
-private
+🧠 Outcome
 
-protected
+⭐ Strong understanding of arrays
+⭐ Improved nested-loop logic
 
-internal
+📅 Day 8 – December 24, 2025
+🔧 Focus Areas
 
-Revised important C# basics:
+🛠️ Methods in C#
+🧩 Reusable Code Design
 
-Data types
+✅ Work Completed
 
-Operators
+🔹 Learned method declaration, parameters, and return types
+🔹 Solved multi-level problems using methods
+🔹 Practiced LeetCode problems using modular logic
+🔹 Implemented scenario-based programs with methods
 
-Program structure
+🧠 Outcome
 
-Explored online C# learning resources and documentation
+⭐ Clean & reusable code writing
+⭐ Better program structure
 
-Practiced coding problems on LeetCode to enhance logic building
+📅 Day 9 – December 26, 2025
+🔧 Focus Areas
 
-🧠 Key Learnings
+🔤 Strings in C#
+⏰ DateTime Operations
 
-Access modifiers control scope and visibility of data
+✅ Work Completed
 
-Revision helped in clearing earlier doubts
+🔹 Learned string immutability and types
+🔹 Practiced built-in string methods
+🔹 Solved DateTime-based problems
+🔹 Built a scenario-based game using:
+   ✔ Control Flow
+   ✔ Arrays
+   ✔ Methods
+   ✔ Strings & DateTime
 
-Regular problem-solving improves confidence and speed
+🧠 Outcome
 
-📅 Day 4 — 22 December 2025
-🎯 Learning Objectives
+⭐ Real-world coding confidence
+⭐ Multi-concept integration
 
-Understand Control Flow in C#
+📅 Day 10 – December 29, 2025
+🔧 Focus Areas
 
-Learn how programs make decisions and repeat tasks
+🏗️ OOPs Introduction
+⚙️ Static vs Instance Members
 
-Apply control flow concepts in coding problems
+✅ Work Completed
 
-🔁 Control Flow in C#
+🔹 Learned classes & objects
+🔹 Solved OOP-based scenario problems
+🔹 Practiced static and instance variables/methods
 
-Control flow defines how a program executes step by step, including:
+🧠 Outcome
 
-Decision making
+⭐ Shift from procedural to OOP thinking
 
-Looping
+📅 Day 11 – December 30, 2025
+🔧 Focus Areas
 
-Jumping between statements
+🏗️ Constructors
+🔐 Role-Based Applications
 
-🧩 Concepts Covered
+✅ Work Completed
 
-Conditional Statements: if, if-else, else-if, switch
+🔹 Built Quiz Application (Teacher & Student roles)
+🔹 Developed Library Management System
+🔹 Learned constructor usage in real-life scenarios
+🔹 Implemented role-based login logic
 
-Looping Statements: for, while, do-while, foreach
+🧠 Outcome
 
-Jump Statements: break, continue, return
+⭐ Strong object initialization concepts
+⭐ Real-world application design
 
-✅ Outcome
+📅 Day 12 – December 31, 2025
+🔧 Focus Areas
 
-Better understanding of program execution logic
+🧠 Advanced OOP Concepts
+🔑 this, static, sealed Keywords
 
-Improved ability to write condition-based programs
+✅ Work Completed
 
-Stronger logical thinking using loops
+🔹 Built Bank Management System
+🔹 Created Mathematical Utility Application
+🔹 Developed Freelancer Invoice Generator
+🔹 Applied advanced OOP keywords
 
-📅 Day 5 — 23 December 2025
-🎯 Goals for the Day
+🧠 Outcome
 
-Learn about arrays in C#
-
-Understand array declaration and initialization
-
-Solve problems using arrays
-
-📚 What I Learned
-
-An array is a data structure used to store multiple values of the same type in a single variable.
-
-🔹 Topics Covered
-
-One-Dimensional Arrays
-
-Two-Dimensional Arrays
-
-Using loops to access and manipulate array elements
-
-🧠 Key Takeaways
-
-Arrays make data handling easier and cleaner
-
-Loop concepts are essential for array operations
-
-1-D and 2-D arrays are used for different scenarios
-
-📅 Day 6 — 24 December 2025
-🎯 Learning Objectives
-
-Understand methods in C#
-
-Learn how to create and use methods
-
-Practice coding using methods
-
-📘 Methods in C#
-
-Methods are reusable blocks of code designed to perform specific tasks.
-They help in writing organized, readable, and maintainable code.
-
-🔹 Concepts Practiced
-
-Methods with and without return values
-
-Methods with parameters
-
-Calling methods from the Main method
-
-🧠 Key Learnings
-
-Methods reduce repetition in code
-
-Parameters increase flexibility
-
-Return values help in processing results
-
-Proper use of methods improves code structure
-
-
-📅 Day 7 — 23 December 2025
-🎯 Focus Areas
-
-The main focus of Day 7 was to:
-
-Understand arrays in C#
-
-Practice logic building using arrays
-
-Review learning progress till now
-
-🛠️ Work Done
-
-Learned arrays in C#, including:
-
-Declaration
-
-Initialization
-
-Traversal using loops
-
-Solved multiple 1-D array problems such as:
-
-Searching elements
-
-Iteration
-
-Basic array operations
-
-Practiced 2-D array problems, focusing on:
-
-Row and column traversal
-
-Applying logic using nested loops
-
-Reviewed all previously covered topics and reflected on strengths and improvement areas
-
-🧠 Key Takeaways
-
-Arrays are essential for handling multiple values efficiently
-
-Loop concepts are crucial for array-based problem solving
-
-Regular review helps in identifying gaps in understanding
-
-📅 Day 8 — 24 December 2025
-🎯 Learning Objectives
-
-Learn how methods work in C#
-
-Write reusable and modular code
-
-Apply methods in real-life and coding problems
-
-🛠️ Activities Completed
-
-Studied methods in C#, including:
-
-Method declaration and definition
-
-Parameters and return types
-
-Scope of methods
-
-Solved problems using methods to:
-
-Improve code reusability
-
-Enhance readability
-
-Practiced LeetCode problems using methods
-
-Worked on scenario-based questions to apply methods in practical situations
-
-🧠 Key Learnings
-
-Methods help reduce code duplication
-
-Parameters make methods flexible
-
-Return values help in processing results effectively
-
-📅 Day 9 — 26 December 2025
-🎯 Topics Covered
-
-Strings in C#
-
-Built-in string methods
-
-Date and Time handling in C#
-
-Scenario-based implementation
-
-🛠️ Work Done
-
-Learned about strings, their types, and immutability
-
-Practiced various string built-in methods
-
-Solved multiple string-based problems
-
-Explored DateTime features and solved problems based on:
-
-Date calculations
-
-Time operations
-
-Built a scenario-based game, applying:
-
-Control flow
-
-Arrays
-
-Methods
-
-Strings
-
-DateTime concepts
-
-🧠 Key Takeaways
-
-Strings are immutable and require careful handling
-
-Built-in methods simplify string manipulation
-
-DateTime is useful for real-world applications
-
-📅 Day 10 — 29 December 2025
-🎯 Learning Goals
-
-Get introduced to Object-Oriented Programming (OOPs)
-
-Understand classes and objects
-
-Learn the difference between static and instance members
-
-🛠️ Activities Completed
-
-Learned OOP basics:
-
-Classes
-
-Objects
-
-Solved scenario-based problems using OOP concepts
-
-Practiced using:
-
-Static variables and methods
-
-Instance variables and methods
-
-Improved code structure using OOP principles
-
-🧠 Key Learnings
-
-OOP helps organize code efficiently
-
-Static members belong to the class
-
-Instance members work with objects
-
-📅 Day 11 — 30 December 2025
-🎯 Focus of the Day
-
-Working on real-life scenario-based projects
-
-Learning constructors in C#
-
-Implementing role-based access logic
-
-🛠️ Work Done
-
-Developed a Quiz Application:
-
-Teachers can manage questions
-
-Students can attempt quizzes
-
-Built a Library Management System with core functionalities
-
-Learned and practiced constructors in C#
-
-Implemented role-based login systems in applications
-
-🧠 Key Takeaways
-
-Constructors help initialize objects properly
-
-Scenario-based projects improve real-world understanding
-
-Role-based systems enhance application security and structure
-
-📅 Day 11 — 30 December 2025
-
-🎯 Focus of the Day
-Working on real-life scenario-based projects
-Learning constructors in C#
-Implementing role-based access logic
-
-🛠️ Work Done
-Developed a Quiz Application:
-
-Teachers can manage questions
-
-Students can attempt quizzes
-
-Built a Library Management System with core functionalities
-Learned and practiced constructors in C#
-Implemented role-based login systems in applications
-
-🧠 Key Takeaways
-Constructors help initialize objects properly
-Scenario-based projects improve real-world understanding
-Role-based systems enhance application security and structure
-
-📅 Day 12 — 31 December 2025
-
-🎯 Focus of the Day
-Understanding method-based programming using real-life scenarios
-Working with strings and string manipulation
-Learning important C# keywords and operators
-
-🛠️ Work Done
-Developed a Bank Account Manager:
-
-Implemented Deposit, Withdraw, and CheckBalance methods
-
-Added logic to prevent overdraft
-
-Created a Math Utility class with methods for:
-
-Factorial calculation
-
-Prime number check
-
-GCD of two numbers
-
-Nth Fibonacci number
-
-Tested all methods with edge cases
-
-Built a Freelancer Invoice Generator:
-
-Parsed invoice strings to extract tasks and amounts
-
-Calculated total invoice amount using methods
-
-Studied core C# concepts:
-
-this keyword
-
-static and sealed keywords
-
-is operator
-
-🧠 Key Takeaways
-Methods help write reusable and structured code
-String manipulation is essential for real-world applications
-Understanding C# keywords strengthens OOP concepts
-
-
-:
+⭐ Deepened OOP understanding
+⭐ Practical keyword usage
 
 📅 Day 13 – January 1, 2026
-🧩 Learning Focus
+🔧 Focus Areas
 
-Scenario-driven problem solving using design thinking
-
-Object modeling for real-world systems
-
-Understanding and creating class diagrams
-
-Learning sequence diagrams for object interaction flow
+🧱 Object Modeling
+📐 UML Diagrams
 
 ✅ Work Completed
 
-Solved multiple real-life scenario questions to improve logical design skills
+🔹 Converted real-life problems into object models
+🔹 Designed Class Diagrams
+🔹 Practiced Sequence Diagrams
 
-Studied how to convert real-world problems into object models
+🧠 Outcome
 
-Designed solutions using class diagrams to represent relationships
-
-Practiced sequence diagrams to visualize execution flow between objects
+⭐ System-level thinking
+⭐ Design clarity
 
 📅 Day 14 – January 2, 2026
-🧩 Learning Focus
+🔧 Focus Areas
 
-Inheritance in C# and its real-world importance
-
-Exploring types of inheritance:
-
-Single inheritance
-
-Multilevel inheritance
-
-Hierarchical inheritance
-
-Applying inheritance through scenario-based programs
+🌳 Inheritance in C#
 
 ✅ Work Completed
 
-Implemented inheritance concepts using C#
+🔹 Implemented single, multilevel & hierarchical inheritance
+🔹 Built mini projects:
+   ✔ Bus Route Tracker
+   ✔ Festival Lucky Draw
 
-Practiced problems covering all major inheritance types
+🧠 Outcome
 
-Built mini applications such as:
-
-Bus Route Tracker for managing routes and distances
-
-Festival Lucky Draw based on conditional logic
+⭐ Strong inheritance fundamentals
 
 📅 Day 15 – January 3, 2026
-🧩 Learning Focus
+🔧 Focus Areas
 
-Complete revision of OOP concepts
-
-Practice sessions to strengthen fundamentals
+🔁 OOPs Revision
 
 ✅ Work Completed
 
-Revised all previously learned OOP topics
+🔹 Revised all OOP concepts
+🔹 Solved practice questions to clear doubts
 
-Solved multiple practice questions to clear doubts
+🧠 Outcome
 
-Improved confidence in applying OOP concepts
+⭐ Increased confidence in OOPs
 
 📅 Day 16 – January 5, 2026
-🧩 Learning Focus
+🔧 Focus Areas
 
-Encapsulation for data protection
-
-Abstraction for simplifying complex systems
-
-Polymorphism (compile-time vs runtime)
-
-Abstract classes and interfaces
-
-Applying OOP pillars in real-life scenarios
+🔐 Encapsulation
+🛡️ Abstraction
+🔄 Polymorphism
+📦 Interfaces & Abstract Classes
 
 ✅ Work Completed
 
-Learned and practiced all major OOP pillars
+🔹 Implemented all OOP pillars
+🔹 Solved two complete real-life scenarios
 
-Implemented abstract classes and interfaces in C#
+🧠 Outcome
 
-Solved two complete scenario-based problems using these concepts
+⭐ Industry-level OOP understanding
 
 📅 Day 17 – January 6, 2026
-🧩 Learning Focus
+🔧 Focus Areas
 
-Detailed revision of all OOP concepts
-
-Advanced scenario-based problem solving
-
-Review and feedback discussion
+🔁 OOPs Final Revision
+🗣️ Review & Feedback
 
 ✅ Work Completed
 
-Revised OOP concepts thoroughly
+🔹 Solved advanced scenario-based problems
+🔹 Discussed progress and feedback with mentor
 
-Solved several real-world scenario questions
+🧠 Outcome
 
-Shared learning progress and received mentor feedback
+⭐ Concept clarity & readiness for DSA
+
+📅 Day 18 – January 7, 2026
+🔧 Focus Areas
+
+🔗 Linked List (DSA)
+
+✅ Work Completed
+
+🔹 Learned Singly, Doubly & Circular Linked Lists
+🔹 Implemented insertion, deletion, traversal & search
+🔹 Solved real-life linked-list scenario
+
+🧠 Outcome
+
+⭐ Strong DSA foundation
+
+📅 Day 19 – January 8, 2026
+🔧 Focus Areas
+
+📚 Stack & Queue
+🗂️ HashMap & Hashing
+
+✅ Work Completed
+
+🔹 Solved stack & queue problems
+🔹 Practiced hashmap logic
+🔹 Built Smart Home Appliance System
+
+🧠 Outcome
+
+⭐ Improved data handling skills
+
+📅 Day 20 – January 9, 2026
+🔧 Focus Areas
+
+🧮 Sorting Algorithms
+
+✅ Work Completed
+
+🔹 Implemented sorting techniques
+🔹 Built ATM Dispenser System
+🔹 Developed Fitness Tracker App
+
+🧠 Outcome
+
+⭐ Algorithmic thinking improved
+
+📅 Day 21 – January 10, 2026
+🔧 Focus Areas
+
+📚 Weekly DSA Revision
+
+✅ Work Completed
+
+🔹 Revised all DSA topics
+🔹 Solved LeetCode array problems
+
+🧠 Outcome
+
+⭐ Strong revision & consistency
+
+📅 Day 22 – January 12, 2026
+🔧 Focus Areas
+
+🔍 Searching Algorithms
+💬 String vs StringBuilder
+
+✅ Work Completed
+
+🔹 Implemented Linear & Binary Search
+🔹 Learned efficient input handling
+🔹 Solved scenario problems (LoanBuddy, Manufacturing apps)
+
+🧠 Outcome
+
+⭐ Optimized coding techniques
+
+📅 Day 23 – January 13, 2026
+🔧 Focus Areas
+
+⏱️ Runtime Analysis
+
+✅ Work Completed
+
+🔹 Learned time complexity comparison
+🔹 Built BookBuddy & CinemaTime apps
+🔹 Practiced LeetCode problems
+
+🧠 Outcome
+
+⭐ Performance-aware coding
+
+📅 Day 24 – January 14, 2026
+🔧 Focus Areas
+
+📚 Address Book System
+
+✅ Work Completed
+
+🔹 Built complete menu-driven Address Book
+🔹 Implemented add, edit, delete, search, sort, count
+🔹 Supported multiple address books
+
+🧠 Outcome
+
+⭐ Full-scale console application experience
+
+📅 Day 25 – January 15, 2026
+🔧 Focus Areas
+
+🔄 Weekly Revision & Enhancement
+
+✅ Work Completed
+
+🔹 Revised weekly topics
+🔹 Solved Tab History Manager
+🔹 Enhanced Address Book System
+
+🧠 Outcome
+
+⭐ Ready for advanced DSA & system design
