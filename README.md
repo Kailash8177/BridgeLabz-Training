@@ -435,3 +435,90 @@
 🧠 Outcome
 
 ⭐ Ready for advanced DSA & system design
+
+
+📅 Day 26 – January 16, 2026
+🔧 Focus Areas
+
+🔄 Advanced DSA Practice
+🔗 Linked Lists (Singly & Circular)
+📊 HashMap & Queue (Custom Implementation)
+
+✅ Work Completed
+
+🔹 Solved scenario-based problems (Library Organizer, Traffic Manager)
+🔹 Implemented custom data structures: Singly Linked List, Circular Linked List, HashMap, Queue
+🔹 Applied multiple DSA concepts together for real-world problem solving
+
+🧠 Outcome
+
+⭐ Strong grip on combining multiple data structures
+⭐ Improved confidence in scenario-based DSA problems
+
+📅 Day 27 – January 17, 2026
+🔧 Focus Areas
+
+🔃 Sorting Algorithms in Real-World Scenarios
+🧠 DSA & OOPS Revision
+
+✅ Work Completed
+
+🔹 Built Fitness Tracker App using sorting for data analysis
+🔹 Implemented Flash Dealz App to sort products by discount & priority
+🔹 Revised all key DSA and OOPS concepts covered so far
+
+🧠 Outcome
+
+⭐ Clear understanding of sorting applications
+⭐ Strengthened core DSA & OOPS fundamentals
+
+📅 Day 28 – January 19, 2026
+🔧 Focus Areas
+
+📊 OOPS + DSA Deep Review
+🧬 Generics in C#
+
+✅ Work Completed
+
+🔹 Performed comprehensive revision of OOPS and DSA concepts
+🔹 Learned Generics in C# with real-world use cases
+🔹 Solved scenario-based projects: Parcel Management System & Online Exam System using Generics
+
+🧠 Outcome
+
+⭐ Improved conceptual clarity
+⭐ Ability to write type-safe and reusable code
+
+📅 Day 29 – January 20, 2026
+🔧 Focus Areas
+
+📚 C# Collections Framework
+🔄 Backtracking Algorithm
+🧩 Scenario-Based Problem Solving
+
+✅ Work Completed
+
+🔹 Practiced all major C# collections (List, Dictionary, HashSet, Queue, Stack, etc.)
+🔹 Learned and implemented backtracking algorithms
+🔹 Solved real-world projects: Aadhar Number Sorting & Password Cracker Simulator
+
+🧠 Outcome
+
+⭐ Strong command over built-in collections
+⭐ Better understanding of recursive problem-solving
+
+📅 Day 30 – January 21, 2026
+🔧 Focus Areas
+
+💧 C# Streams
+🧩 Scenario-Based Applications
+
+✅ Work Completed
+
+🔹 Learned reading, writing, and processing data using C# streams
+🔹 Completed projects: Supermarket Billing Queue & Rank Sheet Generator
+
+🧠 Outcome
+
+⭐ Comfortable with file handling and data streams
+⭐ Ready to move into Exception Handling
