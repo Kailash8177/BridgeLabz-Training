@@ -522,3 +522,47 @@
 
 ⭐ Comfortable with file handling and data streams
 ⭐ Ready to move into Exception Handling
+
+📅 Day 38 – January 31, 2026
+
+🧩 Topics of the Day
+
+JSON Data Handling
+
+Scenario-Based Project
+
+✅ Today's Work
+
+Solved JSON processing problems
+
+Project: Future Logistics Billing System
+
+🧠 Outcomes
+
+Ability to parse, manipulate, and persist JSON data
+
+Experience in building data-driven applications
+
+📅 Day 39 – February 2, 2026
+
+🧩 Topics of the Day
+
+Design Principles & Patterns
+
+Async Programming & Multithreading
+
+Delegates in C#
+
+✅ Today's Work
+
+Implemented design principles and patterns
+
+Learned async, multithreading, and delegates
+
+Enhanced Address Book System
+
+🧠 Outcomes
+
+Understanding of scalable and maintainable design
+
+Ability to write concurrent and event-driven code
