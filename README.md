@@ -1,568 +1,977 @@
-🚀 BridgeLabz Training
-📅 Day 1 — 18 December 2025
-🎯 What I Learned Today
-
 📅 Day 1 – December 16, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
-🧩 Git & GitHub Basics
-💻 Core C# Coding Practice
+🔧 Git & Version Control
+💻 Core Logic Building
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Created and connected GitHub repository using VS Code
-🔹 Practiced Git commands: git add, git commit, git push
-🔹 Worked with branches: main, core-csharp-practice
-🔹 Solved C# problems:
-   ✔ Palindrome Number
-   ✔ Remove Duplicates
-   ✔ Roman to Integer
-   ✔ Square Root
-   ✔ Valid Parentheses
+Set up Git repository and connected it with GitHub
 
-🧠 Outcome
+Practiced basic Git commands (add, commit, push)
 
-⭐ Understood Git workflow
-⭐ Improved logical thinking using C#
+Worked with branching strategy
+
+Solved logical problems like:
+
+Palindrome Number
+
+Remove Duplicates
+
+Roman to Integer
+
+Valid Parentheses
+
+⏭️ Next Goal
+
+Strengthen Git workflow and improve logical problem-solving.
 
 📅 Day 2 – December 17, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
-🖥️ Git Configuration & Git Bash
-🧮 Programming Elements in C#
+⚙️ Git Configuration
+🧮 Basic Programming Problems
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Configured Git (username & email)
-🔹 Practiced repository handling using Git Bash
-🔹 Solved basic programs:
-   ✔ Add Two Numbers
-   ✔ Area of Circle
-   ✔ Average Calculation
-   ✔ Celsius ➜ Fahrenheit
-   ✔ Kilometer ➜ Miles
-   ✔ Simple Interest
-   ✔ Power Calculation
+Configured Git with username and email
 
-🧠 Outcome
+Practiced repository management using Git Bash
 
-⭐ Strengthened programming basics
-⭐ Gained confidence with Git commands
+Implemented programs for:
+
+Area & Perimeter
+
+Temperature Conversion
+
+Simple Interest
+
+Power Calculation
+
+Average Computation
+
+⏭️ Next Goal
+
+Move deeper into structured C# fundamentals.
 
 📅 Day 3 – December 18, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
 🛠️ Development Environment Setup
-📚 C# & .NET Fundamentals
+📚 C# Basics
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Installed .NET SDK, VS Code, Notepad++
-🔹 Learned differences between Java vs .NET & Java vs C#
-🔹 Wrote first Hello World program in C#
-🔹 Studied C# naming conventions & best practices
+Installed .NET SDK and VS Code
 
-🧠 Outcome
+Understood differences between Java and .NET
 
-⭐ Clear understanding of tools
-⭐ Strong foundation in C# basics
+Wrote first C# console program
+
+Learned coding conventions and structure
+
+⏭️ Next Goal
+
+Explore operators, access modifiers, and memory concepts.
 
 📅 Day 4 – December 19, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
 ➕ Operators in C#
 🔐 Access Modifiers
-🧠 Memory Concepts
+🧠 Memory Allocation
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Practiced arithmetic, logical & relational operators
-🔹 Learned access modifiers (public, private, protected, internal)
-🔹 Understood memory allocation in C#
-🔹 Solved real-life operator-based problems
+Practiced arithmetic and logical operators
 
-🧠 Outcome
+Studied scope and accessibility levels
 
-⭐ Better understanding of data access & execution flow
+Understood stack and heap memory
+
+Solved operator-based real-life scenarios
+
+⏭️ Next Goal
+
+Start learning conditional statements and control flow.
 
 📅 Day 5 – December 20, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
-🔀 Control Flow Statements
+🔀 Control Flow
 🔁 Jump Statements
 🔄 Switch Case
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Practiced if, else-if, switch
-🔹 Used break, continue, goto
-🔹 Solved condition-based problems
+Implemented if-else logic
 
-🧠 Outcome
+Practiced break, continue, and goto
 
-⭐ Improved decision-making logic
-⭐ Strong control-flow understanding
+Built switch-based decision programs
+
+Solved multiple decision-based problems
+
+⏭️ Next Goal
+
+Apply control flow in practical number-based programs.
 
 📅 Day 6 – December 22, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
-🔀 Control Flow – Practical Usage
-🧮 Number-based Programs
+🔢 Logical Number Programs
+🧮 Real-life Control Flow
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Solved real-life problems using if-else and switch
-🔹 Practiced number programs:
-   ✔ Armstrong Number
-   ✔ Similar logical number problems
-🔹 Built a Calculator Application using control flow
-🔹 Strengthened logic with multiple practice questions
+Solved Armstrong number and similar problems
 
-🧠 Outcome
+Built calculator using condition logic
 
-⭐ Improved real-life logic building
-⭐ Better grip on conditional execution
+Applied nested conditions
+
+Improved logical thinking
+
+⏭️ Next Goal
+
+Begin learning Arrays in C#.
 
 📅 Day 7 – December 23, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
-📦 Arrays in C#
-🧪 Logic Building with Arrays
+📦 Arrays (1D & 2D)
+🧠 Problem Solving
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Learned array declaration, initialization, and traversal
-🔹 Solved 1-D array problems:
-   ✔ Searching
-   ✔ Iteration
-   ✔ Basic manipulation
-🔹 Practiced 2-D arrays with row-column traversal
-🔹 Reviewed all concepts covered so far
+Learned array declaration and traversal
 
-🧠 Outcome
+Solved searching and iteration problems
 
-⭐ Strong understanding of arrays
-⭐ Improved nested-loop logic
+Practiced 2D matrix traversal
+
+Reviewed previous concepts
+
+⏭️ Next Goal
+
+Start learning Methods and reusable programming.
 
 📅 Day 8 – December 24, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
 🛠️ Methods in C#
-🧩 Reusable Code Design
+♻️ Code Reusability
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Learned method declaration, parameters, and return types
-🔹 Solved multi-level problems using methods
-🔹 Practiced LeetCode problems using modular logic
-🔹 Implemented scenario-based programs with methods
+Learned method creation and calling
 
-🧠 Outcome
+Practiced parameters and return types
 
-⭐ Clean & reusable code writing
-⭐ Better program structure
+Solved scenario-based problems
+
+Applied modular programming approach
+
+⏭️ Next Goal
+
+Work on string manipulation techniques.
 
 📅 Day 9 – December 26, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
-🔤 Strings in C#
+🔤 Strings
 ⏰ DateTime Operations
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Learned string immutability and types
-🔹 Practiced built-in string methods
-🔹 Solved DateTime-based problems
-🔹 Built a scenario-based game using:
-   ✔ Control Flow
-   ✔ Arrays
-   ✔ Methods
-   ✔ Strings & DateTime
+Practiced string methods and immutability
 
-🧠 Outcome
+Solved string-based problems
 
-⭐ Real-world coding confidence
-⭐ Multi-concept integration
+Worked with DateTime operations
+
+Built mini project applying learned concepts
+
+⏭️ Next Goal
+
+Start Object-Oriented Programming.
 
 📅 Day 10 – December 29, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
-🏗️ OOPs Introduction
+🏗️ OOP Introduction
 ⚙️ Static vs Instance Members
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Learned classes & objects
-🔹 Solved OOP-based scenario problems
-🔹 Practiced static and instance variables/methods
+Created classes and objects
 
-🧠 Outcome
+Implemented scenario-based programs
 
-⭐ Shift from procedural to OOP thinking
+Practiced static and instance concepts
+
+Improved code structure using OOP
+
+⏭️ Next Goal
+
+Dive deeper into OOP pillars.
 
 📅 Day 11 – December 30, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
-🏗️ Constructors
-🔐 Role-Based Applications
+🏗️ Constructors in C#
+🔐 Role-Based Application Logic
+📚 Scenario-Based Mini Projects
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Built Quiz Application (Teacher & Student roles)
-🔹 Developed Library Management System
-🔹 Learned constructor usage in real-life scenarios
-🔹 Implemented role-based login logic
+Learned how constructors initialize objects
 
-🧠 Outcome
+Built a Role-Based Quiz Application (Teacher & Student flow)
 
-⭐ Strong object initialization concepts
-⭐ Real-world application design
+Developed a Library Management System
+
+Implemented login-based access control
+
+Strengthened object initialization concepts
+
+⏭️ Next Goal
+
+Explore deeper OOP principles and advanced object behavior.
 
 📅 Day 12 – December 31, 2025
-🔧 Focus Areas
+🧩 Focus Areas
 
 🧠 Advanced OOP Concepts
 🔑 this, static, sealed Keywords
+🏦 Real-World Applications
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Built Bank Management System
-🔹 Created Mathematical Utility Application
-🔹 Developed Freelancer Invoice Generator
-🔹 Applied advanced OOP keywords
+Practiced usage of this keyword for object reference
 
-🧠 Outcome
+Applied static members properly
 
-⭐ Deepened OOP understanding
-⭐ Practical keyword usage
+Understood sealed classes and their purpose
+
+Built projects:
+
+Bank Management System
+
+Invoice Generator
+
+Mathematical Operations Testing App
+
+⏭️ Next Goal
+
+Start implementing core OOP pillars in depth.
 
 📅 Day 13 – January 1, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-🧱 Object Modeling
-📐 UML Diagrams
+📐 Object Modeling
+📊 Class & Sequence Diagrams
+🧠 Design Thinking
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Converted real-life problems into object models
-🔹 Designed Class Diagrams
-🔹 Practiced Sequence Diagrams
+Learned how to model real-world systems
 
-🧠 Outcome
+Designed class diagrams
 
-⭐ System-level thinking
-⭐ Design clarity
+Understood object interactions using sequence diagrams
+
+Solved structured scenario-based design problems
+
+⏭️ Next Goal
+
+Begin working with Encapsulation in practical scenarios.
 
 📅 Day 14 – January 2, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
 🌳 Inheritance in C#
+🔗 Types of Inheritance
+🎯 Real-World Implementation
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Implemented single, multilevel & hierarchical inheritance
-🔹 Built mini projects:
-   ✔ Bus Route Tracker
-   ✔ Festival Lucky Draw
+Implemented single, multilevel, and hierarchical inheritance
 
-🧠 Outcome
+Built scenario-based projects:
 
-⭐ Strong inheritance fundamentals
+Bus Route Tracker
+
+Festival Lucky Draw System
+
+Strengthened base and derived class understanding
+
+⏭️ Next Goal
+
+Revise OOP concepts and prepare for Polymorphism.
 
 📅 Day 15 – January 3, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-🔁 OOPs Revision
+🔁 OOP Revision
+🧠 Practice & Reinforcement
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Revised all OOP concepts
-🔹 Solved practice questions to clear doubts
+Revised classes, constructors, inheritance
 
-🧠 Outcome
+Practiced scenario-based coding questions
 
-⭐ Increased confidence in OOPs
+Cleared conceptual doubts
+
+Strengthened code structuring skills
+
+⏭️ Next Goal
+
+Start learning Polymorphism in detail.
 
 📅 Day 16 – January 5, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
 🔐 Encapsulation
 🛡️ Abstraction
 🔄 Polymorphism
-📦 Interfaces & Abstract Classes
+📦 Abstract Classes & Interfaces
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Implemented all OOP pillars
-🔹 Solved two complete real-life scenarios
+Implemented getters and setters for data protection
 
-🧠 Outcome
+Practiced method overloading & overriding
 
-⭐ Industry-level OOP understanding
+Created abstract classes and interfaces
+
+Solved two complete real-world scenario problems
+
+⏭️ Next Goal
+
+Begin Data Structures & Algorithms (DSA).
 
 📅 Day 17 – January 6, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-🔁 OOPs Final Revision
-🗣️ Review & Feedback
+📚 Complete OOP Revision
+🧠 Real-Life Problem Solving
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Solved advanced scenario-based problems
-🔹 Discussed progress and feedback with mentor
+Reviewed all OOP pillars
 
-🧠 Outcome
+Solved multiple scenario-based questions
 
-⭐ Concept clarity & readiness for DSA
+Participated in review & feedback session
+
+Improved confidence in OOP concepts
+
+⏭️ Next Goal
+
+Start Linked List in DSA.
 
 📅 Day 18 – January 7, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-🔗 Linked List (DSA)
+🔗 Linked List (Singly, Doubly, Circular)
+⚙️ Linked List Operations
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Learned Singly, Doubly & Circular Linked Lists
-🔹 Implemented insertion, deletion, traversal & search
-🔹 Solved real-life linked-list scenario
+Implemented insertion, deletion, traversal
 
-🧠 Outcome
+Understood different linked list types
 
-⭐ Strong DSA foundation
+Solved real-world scenario using linked lists
+
+Built one structured mini project
+
+⏭️ Next Goal
+
+Learn Stack and Queue.
 
 📅 Day 19 – January 8, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
 📚 Stack & Queue
 🗂️ HashMap & Hashing
+🏠 Mini Project Development
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Solved stack & queue problems
-🔹 Practiced hashmap logic
-🔹 Built Smart Home Appliance System
+Implemented stack operations (push, pop, peek)
 
-🧠 Outcome
+Practiced queue operations
 
-⭐ Improved data handling skills
+Learned HashMap concepts
+
+Built Smart Home Appliance System using DSA
+
+⏭️ Next Goal
+
+Study sorting algorithms.
 
 📅 Day 20 – January 9, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
 🧮 Sorting Algorithms
+🏧 Scenario-Based Applications
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Implemented sorting techniques
-🔹 Built ATM Dispenser System
-🔹 Developed Fitness Tracker App
+Learned and implemented multiple sorting techniques
 
-🧠 Outcome
+Built ATM Dispenser program
 
-⭐ Algorithmic thinking improved
+Developed Fitness Tracker application
+
+Applied sorting for structured data organization
+
+⏭️ Next Goal
+
+Start learning runtime analysis and complexity concepts.
 
 📅 Day 21 – January 10, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
 📚 Weekly DSA Revision
+🧮 Array-Based Coding Practice
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Revised all DSA topics
-🔹 Solved LeetCode array problems
+Revised all DSA topics covered during the week
 
-🧠 Outcome
+Solved multiple LeetCode array problems
 
-⭐ Strong revision & consistency
+Strengthened indexing, traversal, and optimization techniques
+
+⏭️ Next Goal
+
+Learn searching algorithms and improve input handling techniques.
 
 📅 Day 22 – January 12, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-🔍 Searching Algorithms
-💬 String vs StringBuilder
+🔍 Linear & Binary Search
+🧵 String vs StringBuilder
+📥 Efficient Input Handling
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Implemented Linear & Binary Search
-🔹 Learned efficient input handling
-🔹 Solved scenario problems (LoanBuddy, Manufacturing apps)
+Implemented linear and binary search algorithms
 
-🧠 Outcome
+Compared performance of String and StringBuilder
 
-⭐ Optimized coding techniques
+Learned efficient input reading techniques
+
+Built scenario-based solutions:
+
+Loan Approval Automation
+
+Pipe Cutting System
+
+Custom Furniture Order System
+
+⏭️ Next Goal
+
+Understand time and space complexity in depth.
 
 📅 Day 23 – January 13, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
 ⏱️ Runtime Analysis
+📊 Algorithm Comparison
+💻 Practical Implementation
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Learned time complexity comparison
-🔹 Built BookBuddy & CinemaTime apps
-🔹 Practiced LeetCode problems
+Studied Big O notation
 
-🧠 Outcome
+Compared efficiency of sorting and searching algorithms
 
-⭐ Performance-aware coding
+Developed projects:
+
+Digital Bookshelf Manager
+
+Movie Schedule Organizer
+
+Practiced additional LeetCode problems
+
+⏭️ Next Goal
+
+Start learning Tree data structure.
 
 📅 Day 24 – January 14, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-📚 Address Book System
+📒 Address Book System
+📋 Feature Implementation
+🖥️ Menu-Driven Interface
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Built complete menu-driven Address Book
-🔹 Implemented add, edit, delete, search, sort, count
-🔹 Supported multiple address books
+Developed full console-based Address Book System
 
-🧠 Outcome
+Implemented features:
 
-⭐ Full-scale console application experience
+Add, Edit, Delete
+
+Search & Sort
+
+View & Count Contacts
+
+Practiced additional coding challenges
+
+⏭️ Next Goal
+
+Enhance the Address Book System with advanced features.
 
 📅 Day 25 – January 15, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-🔄 Weekly Revision & Enhancement
+🔁 Weekly Revision
+🎯 Scenario Practice
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Revised weekly topics
-🔹 Solved Tab History Manager
-🔹 Enhanced Address Book System
+Revised weekly DSA concepts
 
-🧠 Outcome
+Solved Tab History Manager scenario
 
-⭐ Ready for advanced DSA & system design
+Enhanced Address Book functionality and structure
 
+⏭️ Next Goal
+
+Move toward advanced DSA topics like Trees and Graphs.
 
 📅 Day 26 – January 16, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-🔄 Advanced DSA Practice
-🔗 Linked Lists (Singly & Circular)
-📊 HashMap & Queue (Custom Implementation)
+🧠 Advanced DSA Practice
+🔗 Linked List Variations
+📊 HashMap & Queue Implementation
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Solved scenario-based problems (Library Organizer, Traffic Manager)
-🔹 Implemented custom data structures: Singly Linked List, Circular Linked List, HashMap, Queue
-🔹 Applied multiple DSA concepts together for real-world problem solving
+Implemented custom Singly & Circular Linked Lists
 
-🧠 Outcome
+Built Library Organization System
 
-⭐ Strong grip on combining multiple data structures
-⭐ Improved confidence in scenario-based DSA problems
+Developed Traffic Management solution
+
+Combined multiple data structures in one scenario
+
+⏭️ Next Goal
+
+Continue solving sorting and searching based real-life problems.
 
 📅 Day 27 – January 17, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-🔃 Sorting Algorithms in Real-World Scenarios
-🧠 DSA & OOPS Revision
+🔃 Sorting in Real Applications
+🧠 DSA + OOP Revision
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Built Fitness Tracker App using sorting for data analysis
-🔹 Implemented Flash Dealz App to sort products by discount & priority
-🔹 Revised all key DSA and OOPS concepts covered so far
+Applied sorting logic in Fitness Tracker
 
-🧠 Outcome
+Built Flash Deals App with priority sorting
 
-⭐ Clear understanding of sorting applications
-⭐ Strengthened core DSA & OOPS fundamentals
+Revised major DSA and OOP concepts
+
+⏭️ Next Goal
+
+Start learning C# Collections Framework.
 
 📅 Day 28 – January 19, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-📊 OOPS + DSA Deep Review
 🧬 Generics in C#
+📊 OOP + DSA Review
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Performed comprehensive revision of OOPS and DSA concepts
-🔹 Learned Generics in C# with real-world use cases
-🔹 Solved scenario-based projects: Parcel Management System & Online Exam System using Generics
+Learned type-safe programming using Generics
 
-🧠 Outcome
+Built Parcel Management System
 
-⭐ Improved conceptual clarity
-⭐ Ability to write type-safe and reusable code
+Developed Online Exam System
+
+Strengthened reusable code concepts
+
+⏭️ Next Goal
+
+Explore built-in collection classes in C#.
 
 📅 Day 29 – January 20, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
-📚 C# Collections Framework
+📚 C# Collections
 🔄 Backtracking Algorithm
-🧩 Scenario-Based Problem Solving
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Practiced all major C# collections (List, Dictionary, HashSet, Queue, Stack, etc.)
-🔹 Learned and implemented backtracking algorithms
-🔹 Solved real-world projects: Aadhar Number Sorting & Password Cracker Simulator
+Practiced List, Dictionary, HashSet, Stack, Queue
 
-🧠 Outcome
+Implemented backtracking logic
 
-⭐ Strong command over built-in collections
-⭐ Better understanding of recursive problem-solving
+Built projects:
+
+Aadhar Number Sorting
+
+Password Cracker Simulator
+
+⏭️ Next Goal
+
+Start working with Streams and File Handling.
 
 📅 Day 30 – January 21, 2026
-🔧 Focus Areas
+🧩 Focus Areas
 
 💧 C# Streams
-🧩 Scenario-Based Applications
+📂 Data Processing
 
-✅ Work Completed
+✅ What I Accomplished
 
-🔹 Learned reading, writing, and processing data using C# streams
-🔹 Completed projects: Supermarket Billing Queue & Rank Sheet Generator
+Learned file reading and writing using streams
 
-🧠 Outcome
+Implemented Supermarket Billing Queue
 
-⭐ Comfortable with file handling and data streams
-⭐ Ready to move into Exception Handling
+Built Rank Sheet Generator
+
+Practiced structured file handling
+
+⏭️ Next Goal
+
+Learn Exception Handling in C#.
+
+Perfect 👍
+Here is Day 31 – Day 40 in the same clean, professional README format with dates and icons.
+
+📅 Day 31 – January 22, 2026
+🧩 Focus Areas
+
+⚠️ Exception Handling
+📚 Concept Reinforcement
+
+✅ What I Accomplished
+
+Practiced try-catch-finally blocks
+
+Created custom exceptions
+
+Improved application reliability
+
+Revised Collections, Generics, and Streams
+
+⏭️ Next Goal
+
+Begin learning testing concepts in C#.
+
+📅 Day 32 – January 23, 2026
+🧩 Focus Areas
+
+🔄 Weekly Revision
+🧠 Practical Coding
+
+✅ What I Accomplished
+
+Revised Streams and Exception Handling
+
+Practiced multiple scenario-based problems
+
+Strengthened debugging and logical thinking
+
+⏭️ Next Goal
+
+Start learning Attributes (Annotations) and Reflection.
+
+📅 Day 33 – January 24, 2026
+🧩 Focus Areas
+
+🏷️ Attributes in C#
+⚠️ Custom Exception Design
+
+✅ What I Accomplished
+
+Learned how attributes work in C#
+
+Applied attributes in programs
+
+Designed user-defined exceptions
+
+Improved structured error handling
+
+⏭️ Next Goal
+
+Explore Reflection and Unit Testing.
+
+📅 Day 34 – January 27, 2026
+🧩 Focus Areas
+
+🔍 Regular Expressions (Regex)
+🪞 Reflection
+🧪 Unit Testing
+
+✅ What I Accomplished
+
+Implemented Regex for validation
+
+Used Reflection to inspect metadata at runtime
+
+Practiced NUnit and MSTest
+
+Built scenario-based systems:
+
+HealthCheckPro
+
+EventTracker
+
+⏭️ Next Goal
+
+Start File I/O programming.
+
+📅 Day 35 – January 28, 2026
+🧩 Focus Areas
+
+📂 File I/O Programming
+🛠️ Practical File Handling
+
+✅ What I Accomplished
+
+Implemented file read/write operations
+
+Practiced structured data storage
+
+Built systems:
+
+Aviation Data Monitor
+
+Bank Account Validation System
+
+⏭️ Next Goal
+
+Begin learning Design Patterns.
+
+📅 Day 36 – January 29, 2026
+🧩 Focus Areas
+
+📄 JSON Handling
+🌊 Scenario-Based Applications
+
+✅ What I Accomplished
+
+Learned JSON structure and parsing
+
+Built Marine Fleet Management System
+
+Developed Streaming Analytics Application
+
+Practiced structured data integration
+
+⏭️ Next Goal
+
+Practice advanced JSON manipulation.
+
+📅 Day 37 – January 30, 2026
+🧩 Focus Areas
+
+🔁 Weekly Revision
+🚚 Scenario Implementation
+
+✅ What I Accomplished
+
+Revised weekly concepts
+
+Built Logistics Management Solution
+
+Improved project structuring skills
+
+⏭️ Next Goal
+
+Solve more JSON-based real-world problems.
 
 📅 Day 38 – January 31, 2026
+🧩 Focus Areas
 
-🧩 Topics of the Day
+📄 Advanced JSON Processing
+🚛 Billing System Implementation
 
-JSON Data Handling
+✅ What I Accomplished
 
-Scenario-Based Project
+Implemented JSON read/write logic
 
-✅ Today's Work
+Built Logistics Billing System
 
-Solved JSON processing problems
+Applied structured data validation
 
-Project: Future Logistics Billing System
+Improved integration techniques
 
-🧠 Outcomes
+⏭️ Next Goal
 
-Ability to parse, manipulate, and persist JSON data
-
-Experience in building data-driven applications
+Learn Design Principles & Async Programming.
 
 📅 Day 39 – February 2, 2026
+🧩 Focus Areas
 
-🧩 Topics of the Day
+🏗️ Design Principles
+⚡ Async Programming & Multithreading
+🔗 Delegates
 
-Design Principles & Patterns
+✅ What I Accomplished
 
-Async Programming & Multithreading
+Studied SOLID principles
 
-Delegates in C#
+Implemented async/await
 
-✅ Today's Work
+Practiced delegates and event handling
 
-Implemented design principles and patterns
+Enhanced Address Book System with advanced utilities
 
-Learned async, multithreading, and delegates
+⏭️ Next Goal
 
-Enhanced Address Book System
+Start learning DBMS and database connectivity.
 
-🧠 Outcomes
+📅 Day 40 – February 3, 2026
+🧩 Focus Areas
 
-Understanding of scalable and maintainable design
+🖥️ MSSQL Setup
+📝 Basic SQL Queries
 
-Ability to write concurrent and event-driven code
+✅ What I Accomplished
+
+Installed and configured SQL Server
+
+Practiced CRUD operations
+
+Created and managed tables
+
+Understood basic query execution
+
+⏭️ Next Goal
+
+Explore deeper DBMS concepts and integrate database with C#.
+
+📅 Day 41 – February 4, 2026
+🧩 Focus Areas
+
+📚 DBMS Fundamentals
+📝 SQL Practice
+
+✅ What I Accomplished
+
+Attended detailed session on Database Management Systems
+
+Understood normalization and database design basics
+
+Practiced writing and executing SQL queries
+
+Strengthened understanding of relational databases
+
+⏭️ Next Goal
+
+Learn advanced SQL concepts like joins, stored procedures, and triggers.
+
+📅 Day 42 – February 5, 2026
+🧩 Focus Areas
+
+🛠️ Stored Procedures & Triggers
+🔗 SQL Joins
+🗣️ Technical Discussion
+
+✅ What I Accomplished
+
+Implemented stored procedures for structured database operations
+
+Learned different types of joins
+
+Understood triggers and cascading actions
+
+Participated in mentor discussion on Reflection and Unit Testing
+
+⏭️ Next Goal
+
+Apply advanced DBMS concepts in real-world applications.
+
+📅 Day 43 – February 6, 2026
+🧩 Focus Areas
+
+🧠 Soft Skills Development
+🗄️ Advanced DBMS Concepts
+
+✅ What I Accomplished
+
+Attended professional communication training session
+
+Improved workplace readiness skills
+
+Practiced advanced trigger logic and cascading operations
+
+Strengthened understanding of relational constraints
+
+⏭️ Next Goal
+
+Begin building a database-driven Healthcare Project.
+
+📅 Day 44 – February 7, 2026
+🧩 Focus Areas
+
+🔗 Database Integration with C#
+🗄️ Schema Design
+✏️ CRUD Implementation
+
+✅ What I Accomplished
+
+Connected C# console application with SQL Server
+
+Designed structured database schema for Healthcare system
+
+Implemented full CRUD operations
+
+Practiced validation and data consistency handling
+
+⏭️ Next Goal
+
+Enhance database queries and optimize operations.
+
+📅 Day 45 – February 9, 2026
+🧩 Focus Areas
+
+🔌 ADO.NET
+🗂️ Database Connectivity
+
+✅ What I Accomplished
+
+Learned ADO.NET architecture
+
+Practiced SqlConnection, SqlCommand, and data readers
+
+Designed and refined Healthcare database schema
+
+Improved structured data access handling
+
+⏭️ Next Goal
+
+Prepare for a comprehensive mock test.
+
+📅 Day 46 – February 10, 2026
+🧩 Focus Areas
+
+📝 Mock Test
+⚙️ End-to-End Application Development
+
+✅ What I Accomplished
+
+Designed and implemented a complete C# console application within a fixed time
+
+Applied OOP, DSA, Exception Handling, and Database concepts
+
+Demonstrated structured coding and logical problem-solving skills
+
+Completed full development cycle independently
+
+⏭️ Next Goal
+
+Continue improving full-stack development skills and build large-scale real-world projects.
